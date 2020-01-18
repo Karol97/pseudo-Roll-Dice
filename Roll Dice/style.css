@@ -1,0 +1,151 @@
+
+body{
+	background-image: url("img/hexellence.png");
+	font-family: 'Open Sans', sans-serif;
+	color: #111;
+	display: block;
+	margin:0 auto;
+	width:1200px;
+	height:900px;
+}
+
+
+h1{
+	font-family: 'Lobster', cursive;
+	font-size: 64px;
+	font-weight: 400;
+	text-align: center;
+	letter-spacing: 3px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	font-weight: 400;
+	text-align: left;
+	letter-spacing: 3px;
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
+
+input[type=text],
+input[type=number],
+input[type=email],
+input[type=password]
+{
+	width: 170px;
+	background-color: #efefef;
+	color: #666;
+	border: 2px solid #ddd;
+	border-radius: 5px;
+	font-size: 20px;
+	padding: 15px;
+	box-sizing: border-box;
+	outline: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.menu{
+	background-color: white;
+	width: 400px;
+	padding: 40px 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	text-align: center;
+}
+
+.secondMenu{
+	background-color: white;
+	width: 650px;
+	padding: 40px 50px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 80px;
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	text-align: center;
+}
+
+
+input[type=button],
+input[type=submit]{
+	width: 300px;
+	background-color: #36b03c;
+	font-size: 20px;
+	color: white;
+	padding: 15px 10px;
+	margin-top: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+}
+
+input[type=text]{
+	width: 150px;
+	height: 25px;
+}
+
+.containerTop{
+	margin-right: 600px;
+	margin-top: -100px;
+}
+
+.containerPlayer1{
+	float: left;
+	margin-left: 55px;
+	background-color: white;
+	width: 430px;
+	height: 700px; 
+	padding: 50px 50px;
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	text-align: center;
+}
+
+.containerPCorPlayer2{
+	float: right;
+    margin-right: 75px;
+	background-color: white;
+	width: 400px;
+	height: 700px;
+	padding: 50px 50px;
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+	text-align: center;
+}
+
+.containerPlay{
+	float: left;
+	margin-left: 55px;
+	margin-top: 30px;
+	background-color: white;
+	width: 970px;
+	padding: 50px 50px;
+	box-shadow: 3px 3px 30px 5px rgba(204,204,204,0.9);
+}
+
+.error{
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+	text-align: center;
+	letter-spacing: 3px;
+	margin-top: 15px;
+	color: red;		
+}
+		
+.foto{
+	width: 200px;
+	height: 200px;
+}
+.fotoDoubleDice{
+	width: 303px;
+	height: 189px;
+}
+
+.bot, .SimpleDice{
+	display: inline;
+}
